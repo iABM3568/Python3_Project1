@@ -1,9 +1,11 @@
-'''HANGMAN GAME : 
+
+"""
+HANGMAN GAME :
     a player writes down the first and 
     last letters of a word and 
     another player guesses the letters 
     in between. 
-'''
+"""
 
 import random
 
@@ -35,6 +37,7 @@ while i < l:
         nw = nw + '_'
     i+=1
 print()
+
 i=0       #i = 0, again
 
 #user guesses
