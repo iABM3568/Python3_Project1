@@ -7,7 +7,7 @@ n = random.choice(words_list)    #name selected from list
 x = 0                            #counter
 c = ""                           #char guessed
 
-while x<10:                       #10 chances to guess
+while x < 10:                       #10 chances to guess
     c = str(input(f"{10-x} chance left, Guess character : "))  #input character
     if c in n:
         print(f"Correct guess, {c}")
